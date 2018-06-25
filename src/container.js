@@ -1,6 +1,4 @@
-import React, { Component, Fragment } from 'react';
-// import './container.css';
-import  { Grid, Row, Col} from 'react-bootstrap';
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './container.css';
 let matrix = [];
@@ -65,7 +63,6 @@ class Container extends Component {
         const mat = this.state.mat || [];
         const {result} = this.state;
         return (
-        <Fragment>
 
         <div className='container calc'>
 
@@ -111,7 +108,6 @@ class Container extends Component {
             </div>
             </div>
             </div>
-            </Fragment>
         );
     }
 }
